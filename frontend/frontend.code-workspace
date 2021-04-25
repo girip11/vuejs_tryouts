@@ -1,0 +1,82 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.renderWhitespace": "all",
+
+    "[markdown]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+      },
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.wordWrap": "wordWrapColumn",
+      "editor.wrappingIndent": "none"
+    },
+    "[typescript]": {
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true
+      },
+      "editor.wordWrapColumn": 100
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "octref.vetur"
+    },
+
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100,
+    "editor.detectIndentation": false,
+    "editor.fontSize": 16,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+
+    "terminal.integrated.env.linux": {
+      "VSCODE_INTEGRATED_TERMINAL": "true"
+    },
+    "terminal.integrated.env.osx": {
+      "VSCODE_INTEGRATED_TERMINAL": "true"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "git.autorefresh": true,
+    "files.insertFinalNewline": true,
+    "files.associations": {
+      ".ts": "typescript"
+    },
+
+    "shellcheck.enable": true,
+    "shellcheck.useWorkspaceRootAsCwd": true,
+    "shellcheck.run": "onSave",
+    "shellformat.flag": "-i 2 -ci -sr -bn",
+
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.suggest.completeJSDocs": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.format.enable": false, // we use prettier for formatting
+    "prettier.prettierPath": "${workspaceFolder}/node_modules/prettier/index.js",
+    "prettier.enable": true,
+    "typescript.autoClosingTags": true,
+    "typescript.suggestionActions.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "eslint.packageManager": "npm",
+    "eslint.lintTask.enable": true,
+
+    "vetur.experimental.templateInterpolationService": true,
+    "vetur.format.defaultFormatterOptions": {
+      "js-beautify-html": {
+        "wrap_attributes": "force-expand-multiline"
+      },
+      "prettyhtml": {
+        "printWidth": 100,
+        "singleQuote": false,
+        "wrapAttributes": false,
+        "sortAttributes": false
+      }
+    }
+  }
+}
