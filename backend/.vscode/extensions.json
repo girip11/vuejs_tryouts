@@ -1,0 +1,73 @@
+{
+  "recommendations": [
+    // configuration files
+    "ahmadalli.vscode-nginx-conf",
+    "be5invis.toml",
+    "DotJoshJohnson.xml",
+    "esbenp.prettier-vscode",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "mikestead.dotenv",
+
+    // python
+    "almenon.arepl",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "samuelcolvin.jinjahtml",
+    "njpwerner.autodocstring",
+    "hbenl.vscode-test-explorer",
+    "littlefoxteam.vscode-python-test-adapter",
+    "tushortz.python-extended-snippets",
+    "VisualStudioExptTeam.vscodeintellicode",
+
+    // docker
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.remote-wsl",
+
+    // markdown and restructed text
+    "bierner.github-markdown-preview",
+    "bierner.markdown-checkbox",
+    "bierner.markdown-emoji",
+    "bierner.markdown-preview-github-styles",
+    "bierner.markdown-yaml-preamble",
+    "DavidAnson.vscode-markdownlint",
+    "lextudio.restructuredtext",
+    "yzhang.markdown-all-in-one",
+    "ExecutableBookProject.myst-highlight",
+
+    // bash/shell
+    "emeraldwalk.RunOnSave",
+    "foxundermoon.shell-format",
+    "luggage66.AWK",
+    "mads-hartmann.bash-ide-vscode",
+    "timonwong.shellcheck",
+
+    // git
+    "eamodio.gitlens",
+    "michelemelluso.gitignore",
+
+    // dev tools, themes and fonts
+    "ritwickdey.LiveServer",
+    "firefox-devtools.vscode-firefox-debug",
+    "monokai.theme-monokai-pro-vscode",
+    "ms-vsliveshare.vsliveshare",
+    "ms-vsliveshare.vsliveshare-audio",
+    "msjsdiag.debugger-for-chrome",
+    "vscode-icons-team.vscode-icons",
+    "Shan.code-settings-sync",
+    "Paratype.clincher-code-font",
+    "kisstkondoros.vscode-gutter-preview",
+
+    // postgres
+    "bradymholt.pgformatter",
+
+    // misc
+    "christian-kohler.path-intellisense",
+    "GrapeCity.gc-excelviewer", // excel preview
+    "James-Yu.latex-workshop", // pdf preview
+    "janisdd.vscode-edit-csv",
+    "mechatroner.rainbow-csv"
+  ]
+}
